@@ -1,5 +1,4 @@
 node {
-   def mvnHome
    stage('Preparation') 
    { 
    echo 'stage process one'
@@ -7,7 +6,7 @@ node {
    stage('Build') 
    {
    echo 'stage process two'
-     {
+     }
            
    stage('Results') 
    {
