@@ -1,0 +1,22 @@
+node {
+   def mvnHome
+   stage('Preparation') 
+   { 
+   echo 'stage process one'
+   }
+   stage('Build') 
+   {
+   echo 'stage process two'
+     {
+           
+   stage('Results') 
+   {
+   echo 'stage process three'
+     
+   }
+   stage('sleep') 
+   {
+   sleep 30
+     
+   }
+}
